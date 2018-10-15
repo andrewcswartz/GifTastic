@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- bootstrap reference -->
+    <!-- <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'> -->
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- link to google fonts: Permanent Marker Font -->
+   
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+   
+    <!-- additional local css styling -->
+    <link rel='stylesheet' href='assets/css/style.css'>
+    <title>NBA Player GIFS</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="jumbotron text-center">
+            <h1>NBA GIFs!</h1>
+            <h3>click the gif to animate. click again to reset. add other legends. repeat.</h3>
+        </div>
+        <div class="row">
+            <div class="buttons text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            </div>
+        </div>
+
+        <!-- div appears before gifs on sm and xs screens -->
+        <div class="topic-add hidden-lg hidden-md col-sm-12 col-xs-12 text-center">
+            <form id="topic-form">
+                <h3>Add an player</h3>
+                <input type="text" id="topic-input">
+                <input id="add-topic" type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div class="row">
+            <div class="gifs text-center col-lg-9 col-md-9 col-sm-12 col-xs-12">
+            </div>
+
+    
+        </div>
+    </div>
+
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='
+        crossorigin='anonymous'>
+    </script>
+    <script src='assets/javascript/app.js'></script>
+</body>
+
+</html>

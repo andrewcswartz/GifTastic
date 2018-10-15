@@ -1,0 +1,46 @@
+body {
+    background-image: url(../images/Basketball-Background3.jpg);
+    font-family: 'Dosis', sans-serif;
+
+}
+
+h1, h3, h4, button, form {
+    
+    font-family: 'Dosis', sans-serif;
+
+}
+
+.row {
+    margin: 0px;
+}
+
+.jumbotron {
+    margin-top: 15px;
+}
+
+.jumbotron, .topic-add, .buttons {
+    background: rgba(168, 168, 168, 0.4);
+}
+
+button {
+    margin: 10px;
+}
+
+.buttons {  
+    padding: 15px 0px;
+}
+
+input {
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+#topic-form {
+    padding-bottom: 50px;
+}
+
+.item {
+    float: left;
+    display: block;
+    margin: 5px;
+}
